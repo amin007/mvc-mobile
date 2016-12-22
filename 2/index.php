@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>List View</title>
+<?php include 'header.php'; ?>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+<div data-role="page" data-theme="a">
+<div data-role="header">
+<h1 align="center">Menggunakan Form Input</h1>
+<div data-role="navbar">
+  <ul>
+   <li><a href="FormInput.php" data-role="button" data-inline="true" data-transition="pop">Input Data</a></li>
+   <li><a href="ListMahasiswa.php">List Mahasiswa</a></li>
+   
+  </ul>
+ </div>
+</div>
+<div data-role="content">
+<li data-role="fieldcontain">
+          <center><label for="name"><h1>APLIKASI CRUD DATABASE DENGAN JQUERY MOBILE</h1>
+           <h2>OLEH : AGAN ISLAH</h2></label></center>
+   </li>
+
+</div>
+<div data-role="footer" data-position="fixed">
+<h2>@Agan Islah</h2>
+</div>
+</div>
+</body>
+</html>
