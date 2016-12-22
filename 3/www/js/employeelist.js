@@ -1,4 +1,4 @@
-var serviceURL = "http://eks-johor/godek2/mvc/mobile/3/services/";
+var serviceURL = "../services/";
 
 var employees;
 
@@ -7,7 +7,7 @@ $('#employeeListPage').bind('pageinit', function(event) {
 });
 
 function getEmployeeList() {
-	$.getJSON(serviceURL + 'getemployees.php', function(data) {
+	$.getJSON(serviceURL + 'getemployees.txt', function(data) {
 		$('#employeeList li').remove();
 		employees = data.items;
 		$.each(employees, function(index, employee) {
